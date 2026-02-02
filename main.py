@@ -15,7 +15,7 @@ def user_guess(num):
 
       else:
          if guess == num:
-           print("You guessed it correctly!")
+           print("🎉 You guessed it correctly!")
            return True
          elif guess < num :
            print("Guessed number is less than the actual number")
@@ -26,7 +26,7 @@ def user_guess(num):
          guessed_num.append(guess)
 
       if chance == 0:
-           print("You are out of guessing limits. Try again!")
+           print(f"😢 You are out of guessing limits. The number was {num}")
       
      except ValueError:
           print("Number must be an integer.")

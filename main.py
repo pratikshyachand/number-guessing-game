@@ -20,7 +20,7 @@ def user_guess(num):
          elif guess < num :
            print("Guessed number is less than the actual number")
          elif guess > num:
-           print("Guessed number is greater than the actual one")
+           print("Guessed number is greater than the actual number")
 
          chance -= 1
          guessed_num.append(guess)
@@ -35,7 +35,7 @@ def user_guess(num):
 def main():
 
     print("*** NUMBER GUESSING GAME ***")
-    num = random.randint(1,20) # return random number within the range (1,100)
+    num = random.randint(1,20) # returns random number within the range (1,20)
     
     user_guess(num)
 

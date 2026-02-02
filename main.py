@@ -35,7 +35,7 @@ def user_guess(num):
 def main():
 
     print("*** NUMBER GUESSING GAME ***")
-    num = random.randint(1,20) # returns random number within the range (1,100)
+    num = random.randint(1,20) # returns random number within the range (1,20)
     
     user_guess(num)
 
